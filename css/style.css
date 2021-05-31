@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+    text-decoration: none;
+    padding-left: 0;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.nav-top {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 30px 20px 30px;
+    align-items: center;
+}
+
+.nav-top a {
+    color: #222222 ;
+}
+
+.list {
+    font-size: 14px;
+    align-items: center;
+}
+
+.list-2 {
+    align-items: center;
+    font-size: 13px;
+}
+
+#shape {
+    display: grid;
+    height: 30px;
+    width: 30px;
+    background: black;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    row-gap: 50px;
+}
+
+input {
+    width: 500px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid #dfe1e5;
+    box-shadow: 0 1px 4px rgb(32 33 36 / 28%);
+}
+
+.text-below {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    background: none;
+    border: none;
+    padding: 12px;
+    margin: 11px 4px;
+    color: #222222;
+    font-size: 14px;
+}
+
+button:hover {
+    border: 1px solid #dfe1e5;
+    border-radius: 10px;
+}
+
+#ribbon {
+    width: 48px;
+    height: 68px;
+}
+
+p {
+    font-size: 13px;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 15px 0 15px 0;
+    margin-top: 25px;
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-between;
+    color: rgba(0,0,0,.54);
+}
+
+footer nav ul {
+    padding-left: 20px;
+}
+
+footer nav ul li {
+    font-size: 14px;
+}
+
+footer nav ul li:hover {
+    text-decoration: underline;
+}
+
+#canada {
+    border-bottom: 1px solid #dadce0
+}
+
+#canada p {
+    color: rgba(0,0,0,.54);
+    font-size: 15px;
+    padding-left: 20px;
+    font-weight: 10;
+}
+
+
+
+
+
